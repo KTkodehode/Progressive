@@ -5,16 +5,6 @@ body {
     padding-left: 13rem;
     background: #1e1e1e;
 }
-/* menu {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-} */
-
 .main-menu {
     width: 13rem;
     background-color: #181818;
@@ -31,8 +21,8 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    resize: vertical;
-    overflow: auto;
+    /* resize: vertical;
+    overflow: auto; */
 
 
 }
@@ -43,7 +33,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
 }
 .main-menu-top>span {
     font-family: 'Courier New', Courier, monospace;
