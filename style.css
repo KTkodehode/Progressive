@@ -1,21 +1,22 @@
 body {
-    line-height: 1.5;
+    line-height: 2.5;
     display: block;
     min-width: 320px;
     padding-left: 13rem;
     background: #1e1e1e;
-    /* background-color: hsl(24, 12%, 15%); */
-    background-image: url("./img/helloworld.gif");
-    background-size: 100%;
+    background-image: url("./img/intro-bg.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
  
   
     
 }
 .main-menu {
     width: 13rem;
-    background-color: #313131;
-    /* background-color: #383e3f; */
+    /* background-color: #313131; */
+    background-color: #383e3f;
     height: 100vh;
     position: fixed;
     left: 0;
@@ -29,8 +30,9 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    /* resize: vertical;
-    overflow: auto; */
+    resize: vertical;
+    overflow: auto;
+    
 
 
 }
@@ -42,19 +44,25 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 6rem 0;
+transform:scale(1)
+    /* padding: 1px 0 -10px 0; */
 }
 .main-menu-top>span {
     font-family: 'Courier New', Courier, monospace;
     color: #a5a5a5;
     font-size: 1.2rem;
-    margin-top: 1rem;
+    margin-top: -1rem;
+    display: flex;
+    
+
 }
 .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* transform: scale(1.4); */
+    height: 300px;
 }
 .main-menu-nav {
     width: 100%;
@@ -64,6 +72,8 @@ body {
     align-items: center;
     border-top: 1px solid #282828;
     height: 100vh;
+    /* margin-top: -45px; */
+    /* padding-top: -10%; */
 }
 a {
     background-color: transparent;
@@ -76,6 +86,7 @@ a {
     font-size: 1.6rem;
     /* line-height: 5rem; */
     border-bottom: 1px solid rgb(127,118, 104);
+    /* margin-top: 19px; */
 }
 .social {
     color: #909096;
@@ -84,7 +95,8 @@ a {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    height: 20rem;
+    height: 25rem;
+    /* background-color: white; */
 }
 .social li {
     text-align: center;
@@ -92,14 +104,14 @@ a {
 li {
     display: list-item;
 }
-img {
+/* img {
     width: 205px;
     height: 300px;
-}
+} */
 .social-logo {
-    height: 50px;
-    width: 50px;
-    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
 }
 .social-logo:hover {
     transform: scale(1.5);
@@ -136,75 +148,3 @@ aside {
     color: white;
     text-align: center;
   }
-  .smiley-eye-one {
-  height: 100px;
-  width: 200px;
-  background: white;  
-  margin-right: auto;
-  margin-left: 200px;
-  border-radius: 50%;
-
-  }
-  .smiley-eye-second {
-    height: 100px;
-    width: 200px;
-    background: white;  
-    margin-right: auto;
-    margin-left: 200px;
-    border-radius: 50%;
-  
-    }
-    .smiley-dots {
-        background: black;
-        height: 30px;
-        width: 30px;
-        margin-left: -150px;
-        /* margin-right: 100px; */
-        border-radius: 50px;
-    }
-    .smiley-dotsb {
-        background: black;
-        height: 30px;
-        width: 30px;
-        margin-left: 200px;
-        /* margin-right: 10px; */
-        border-radius: 50px;
-    }
-    .smile {
-        /* background: white;
-        width: 100px;
-        height: 100px;
-        border-top-left-radius: 110px;
-        border-top-right-radius: 110px;
-        border-bottom: 0;
-        border-radius: 50%;
-        border-bottom-color: transparent; */
-        width: 200px;
-        height: 200px;
-        border: 10px solid black;
-        border-radius: 50%;
-        /* Halve the circle */
-        border-bottom-color: transparent;
-        border-left-color: transparent;
-        /* Rotate the circle */
-        transform: rotate(135deg);
-        margin-left: 280px;
-    }
-    .clown {
-        margin-top: 100px;
-    }
-    /* .nose {
-
-
-        width: 100px;
-        height: 100px;
-        border: 1px solid black;
-        border-radius: 50%;
-        border-bottom-color: transparent;
-        border-left-color: transparent;
-        transform: rotate(135deg);
-        margin-left: 330px;
-    } */
-    .main-menu-nav a  {
-        margin-top: 40px;    
-}

@@ -7,11 +7,12 @@ body {
     /* background-image: url("./img/photo-1563372949-0483fa40e5da.avif"); */
     /* background-image: url("./img/giphy.gif"); */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+    background-attachment: fixed;
     width: auto;
     height: 0;
     padding-bottom: auto;
-    background-attachment: fixed;
+   
 }
 /* nav {
     width: 100%;
