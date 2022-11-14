@@ -1,6 +1,15 @@
 * {
     margin: 0;
     box-sizing: border-box;
+
+}
+body {
+    background-image: url("./img/daniel-sinoca-aanclsb0su0-unsplash.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 0;
+    padding-bottom: auto;
 }
 nav {
     width: 100%;
