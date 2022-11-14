@@ -4,7 +4,7 @@
 
 }
 body {
-    background-image: url("./img/daniel-sinoca-aanclsb0su0-unsplash.jpeg");
+    background-image: url("./img/photo-1563372949-0483fa40e5da.avif");
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
@@ -16,10 +16,17 @@ nav {
     width: 100%;
     background: #0B7189;
     display: flex;
+    background: rgb(117,226,100);
+    background: linear-gradient(90deg, rgba(117,226,100,1) 34%, rgba(44,171,144,1) 73%);
+    opacity: 60%;
+    
 }
 .navbar-top {
     width: 100%;
-    padding: 10px;
+    padding: 30px;
+    font-size: 30px;
+    border-bottom:none;
+    
 }
 /* Position Right on Nav */
 .navbar-top li{
