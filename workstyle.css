@@ -1,19 +1,19 @@
-nav{
-    margin-left:auto;
-    margin-right: auto;
-    /* display: inline-flex; */
-    align-items: center;
-    
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
-
-ul {
-    margin-left: auto;
-    margin-right: auto;
-    list-style: none;
-    text-align: center;
+nav {
+    width: 100%;
+    background: red;
     display: flex;
-    justify-content: space-between;
 }
-li {
-text-align: center;
+.navbar-top {
+    width: 100%;
+    padding: 10px;
+}
+/* Position Right on Nav */
+.navbar-top li{
+    display: flex;
+    float: right;
+    padding-inline: 10px;
 }
