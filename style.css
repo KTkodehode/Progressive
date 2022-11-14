@@ -4,6 +4,13 @@ body {
     min-width: 320px;
     padding-left: 13rem;
     background: #1e1e1e;
+    /* background-color: hsl(24, 12%, 15%); */
+    background-image: url("./img/helloworld.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+ 
+  
+    
 }
 .main-menu {
     width: 13rem;
@@ -102,11 +109,6 @@ a:link, a:visited{
     background-color: transparent;
     text-decoration: none; 
 }
-/* a:visited {
-    color: #909096;
-    background-color: transparent;
-    text-decoration: none;
-} */
 a:hover {
     color: #ffffff;
     background-color: transparent;
