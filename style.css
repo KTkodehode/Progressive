@@ -1,3 +1,7 @@
+* {
+    cursor: w-resize;
+    transform:matrix(2);
+}
 body {
     line-height: 2.5;
     display: block;
@@ -9,8 +13,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
- 
-  
     
 }
 .main-menu {
@@ -30,8 +32,8 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    resize: vertical;
-    overflow: auto;
+    /* resize: vertical; */
+    /* overflow: auto; */
     
 
 
@@ -51,7 +53,7 @@ transform:scale(1)
     font-family: 'Courier New', Courier, monospace;
     color: #a5a5a5;
     font-size: 1.2rem;
-    margin-top: -1rem;
+    margin-top: -1.2rem;
     display: flex;
     
 
@@ -83,7 +85,7 @@ a {
     text-align: center;
     width: 100%;
     display: block;
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
     /* line-height: 5rem; */
     border-bottom: 1px solid rgb(127,118, 104);
     /* margin-top: 19px; */
