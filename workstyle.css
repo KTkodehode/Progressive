@@ -30,7 +30,9 @@ body {
 .navbar-top {
     width: 100%;
     padding: 30px;
-    font-size: 30px;
+    font-size: 15px;
+    font-family: good-times;
+    opacity: 50%;
     
 }
 /* Position Right on Nav */
@@ -55,11 +57,14 @@ a:link, a:visited{
     color: #1900ff;
     background-color: transparent;
     text-decoration: none; 
+    opacity: 100%;
 }
 a:hover {
     color: #000000;
     background-color: transparent;
     text-decoration: none;
+    opacity: 150%;
+    
 }
 a:active {
     color: rgb(0, 255, 0);
@@ -80,4 +85,8 @@ a:active {
 .top-header {
     margin-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.test {
+
+    float: left;
 }
