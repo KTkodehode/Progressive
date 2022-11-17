@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'good-times';
+    src: url(./good\ times\ rg.otf);
+}
 * {
     margin: 0;
     box-sizing: border-box;
@@ -41,6 +45,11 @@ body {
 } */
 h1 {
     text-align: center;
+    /* color: #00000035; */
+    opacity: 10%;
+    letter-spacing: 30px;
+    margin-top: 120px;
+    font-family: good-times;
 }
 a:link, a:visited{
     color: #1900ff;
